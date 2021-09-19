@@ -1,0 +1,100 @@
+
+@media (max-width: 321px) {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+.mainMobile {
+  display: block;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: none;
+}
+
+.footer {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+.logo-M {
+  width: 135px;
+  height: 25px;
+}
+
+.icon-L {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.nav {
+  margin-top: 16px;
+  margin-left: 15px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.nav-icon {
+  margin-right: 15.02px;
+
+}
+
+.headTitle {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 90%;
+  color: #000000;
+  margin-top: 24.96px;
+  margin-left: 14px;
+}
+
+.main-info {
+  background-image: url(/img/iphone/fon.svg);
+  background-repeat: no-repeat;
+  background-position-y: 45px;
+}
+
+.vena-img {
+  margin-top: -51px;
+}
+
+.caruselM {
+  display: flex;
+  margin-top: -35px;
+}
+
+.left {
+  margin-right: 15.09px;
+}
+
+.buyW {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #5B0E58;
+  border: 1px solid #5B0E58;
+  box-sizing: border-box;
+  border-radius: 33.5px;
+  padding: 10.51px 25.85px 7.49px 23.15px;
+}
+
+.buyD {
+  width: 132px;
+  height: 34px;
+  margin-left: 92px;
+  margin-top: -35px;
+}
+
+}
